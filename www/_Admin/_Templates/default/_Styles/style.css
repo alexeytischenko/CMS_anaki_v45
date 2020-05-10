@@ -1,0 +1,236 @@
+html {
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5B5B5B;
+
+	line-height : 15px
+}
+
+div, ul{
+    margin : 0px;
+  padding : 0px;
+}
+td{
+
+  font-size: 11px;
+  color: #5B5B5B;
+  line-height:15px
+}
+p {
+  font-size: 11px;
+  color: #5B5B5B;
+  margin: 0px 0;
+  padding: 4px 0;
+}
+a{
+
+
+  color: #5B5B5B;
+  text-decoration : underline;
+  font-weight : normal;
+}
+a:hover{
+  color: #82C4EF;
+  text-decoration : none;
+  font-weight : normal;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	color: black;
+	text-transform : uppercase;
+	line-height : 30px
+}
+.bottom {
+	background : url(../_Images/bottom_b.jpg) repeat-x;
+	height: 26px;
+	padding-right : 100px;
+	padding-top : 5px;
+	color: #717070
+}
+.bottom2 {
+	background : url(../_Images/bottom_b.jpg) repeat-x;
+	height: 26px;
+	padding-right : 14px;
+	color: #717070
+}
+
+.black, .black a, .black a:hover {
+font-size : 12px;
+	color: black;
+	  text-decoration : none;
+}
+.black a {
+	text-decoration : underline
+}
+
+
+.main {
+	background : #39C2D1 url(../_Images/main_back.jpg) no-repeat bottom;
+	width : 946px;
+	padding-bottom : 150px
+}
+.enter {
+	background : white url(../_Images/enter_bot.gif) repeat-x bottom;
+}
+.enter td {
+	color: black;
+	line-height : 22px;
+	font-size : 12px
+}
+.td_1
+{
+	padding : 31px 30px 10px 30px;
+	background : url(../_Images/enter.gif) no-repeat bottom right;
+
+
+}
+.input_enter {
+	background-color: #F5FCFD;
+	color: black;
+	text-transform : uppercase;
+	font-size : 12px;
+	border: 1px solid #CBCCCC;
+	height: 30px;
+	width : 230px;
+
+		margin:0;
+	padding: 6px 0 0 3px;
+	font-weight : bolder;
+	vertical-align : middle;
+}
+.input_button {
+	color: white;
+	text-transform : uppercase;
+	font-size : 12px;
+	border: none;
+		margin:0;
+	padding:0;
+	height: 30px;
+	width : 230px;
+	font-weight : bolder;
+	background : url(../_Images/enter_but.gif) repeat-x;
+	cursor : pointer;
+}
+form {
+	margin:0;
+	padding:0
+}
+.top {
+	height: 29px;
+	color: white;
+	font-size : 11px;
+	background : #AFD441 url(../_Images/top.jpg) no-repeat left;
+	padding: 0 10px 0 0;
+	vertical-align : middle;
+
+}
+
+.menu_back {
+	height: 95px;
+	background : #F0F2F3 url(../_Images/menu_back.gif) repeat-x top;
+	padding: 22px 13px 14px 13px;
+border-bottom : 1px solid #E4E4E8;
+	vertical-align : top;
+}
+
+.white a:hover, .white {
+	color: white;
+		font-size : 11px;
+		text-decoration : none;
+		text-transform : uppercase;
+
+}
+
+ .white a {
+	color: white;
+	text-transform : uppercase;
+		font-size : 11px;
+		text-decoration : underline;
+
+}
+.main_in {
+	padding: 7px 50px 0 0;
+	background : white url(../_Images/marika.gif) no-repeat bottom right;
+}
+.main_in2 {
+	padding: 20px 0 0 17px
+}
+.left {
+	width: 140px;
+	border-right: 1px solid #E4E4E8;
+	background: #F4F4F7;
+	padding: 80px 22px
+}
+.left p {
+	color: #959494;
+	font-size : 10px;
+	padding-top: 10px
+}
+.left h2 {
+	color: #5B5B5B;
+	font-size : 11px;
+	font-weight : bolder;
+
+}
+.panel {
+	width: 150px;
+	height: 153px;
+	background-color : #F1FDFE;
+	border: 1px solid #E4E4E8;
+	margin : 20px 23px 20px 0;
+	float: left;
+	vertical-align : middle;
+	text-align : center;
+
+}
+.panel p {
+	margin: 0;
+	padding: 5px 0
+}
+.panel a {
+	color: #437079;
+	text-decoration : none
+}
+.clear {
+clear : both;
+}
+.panel_img {
+	margin-top: 5px
+}
+#popup {
+
+
+
+
+}
+.line {
+	clear : both;
+	background-color : white;
+	height: 1px;
+	padding: 0;
+	margin: 0;
+}
+#popup a {
+	color: black;
+	display : block;
+	text-decoration : none;
+	font-size: 11px;
+	background : url(../_Images/plus2.gif) no-repeat left top;
+
+	margin : 0px;
+	padding: 0 0 0 25px
+}
+
+#popup div {
+	padding : 15px 8px 8px 8px;
+background-color: #BDF2D1;
+border: 1px solid #CFD0D1;
+	margin-top: 15px
+}

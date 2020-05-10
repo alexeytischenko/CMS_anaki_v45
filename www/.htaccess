@@ -1,0 +1,27 @@
+AddDefaultCharset Off
+
+RewriteEngine on
+
+RewriteRule ^(eng|rus)/(.+)/(.+)/(.+)/(.+)/(.+)/$ ?page=$6&slang=$1&id=$2&pg=$3&mod=$4&flt=$5
+RewriteRule ^(eng|rus)/(.+)/(.+)/(.+)/(.+)/$ ?page=$5&slang=$1&id=$2&pg=$3&mod=$4
+RewriteRule ^(eng|rus)/(.+)/(.+)/(.+)/$ ?page=$4&slang=$1&id=$2&pg=$3
+RewriteRule ^(eng|rus)/(.+)/(.+)/$ ?page=$3&slang=$1&id=$2
+RewriteRule ^(eng|rus)/(.+)/$ ?page=$2&slang=$1
+
+RewriteRule ^page/(.{1})/(.+)/(.+)/(.+)/(.+)/(.+)/$ ?page=$6&lang=$1&id=$2&pg=$3&mod=$4&flt=$5
+RewriteRule ^page/(.{1})/(.+)/(.+)/(.+)/(.+)/$ ?page=$5&lang=$1&id=$2&pg=$3&mod=$4
+RewriteRule ^page/(.{1})/(.+)/(.+)/(.+)/$ ?page=$4&lang=$1&id=$2&pg=$3
+RewriteRule ^page/(.{1})/(.+)/(.+)/$ ?page=$3&lang=$1&id=$2
+RewriteRule ^page/(.{1})/(.+)/$ ?page=$2&lang=$1
+RewriteRule ^page/(.+)/$ ?page=$1
+
+RewriteRule ^print/(.{1})/(.+)/(.+)/(.+)/$ ?page=$4&lang=$1&id=$2&pg=$3&print=1
+RewriteRule ^print/(.{1})/(.+)/(.+)/$ ?page=$3&lang=$1&id=$2&print=1
+RewriteRule ^print/(.{1})/(.+)/$ ?page=$2&lang=$1&print=1
+RewriteRule ^print/(.+)/$ ?page=$1&print=1
+
+RewriteRule ^([-a-z_0-9]+)/(.+)/(.+)/(.+)/(.+)/(.+)/$ ?page=$1&id=$5&pg=$4&mod=$2&flt=$3
+RewriteRule ^([-a-z_0-9]+)/(.+)/(.+)/(.+)/$ ?page=$1&id=$4&pg=$3&mod=$2
+RewriteRule ^([-a-z_0-9]+)/(.+)/(.+)/$ ?page=$1&id=$3&pg=$2
+RewriteRule ^([-a-z_0-9]+)/(.+)/$ ?page=$1&id=$2
+RewriteRule ^([-a-z_0-9]+)/$ ?page=$1

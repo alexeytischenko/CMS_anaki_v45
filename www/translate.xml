@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+	<text name = "Название">
+		<rus>Сайт</rus>
+	    <eng>Site</eng>
+	</text>
+	<text name = "home">
+		<rus>На главную</rus>
+	    <eng>Home page</eng>
+	</text>
+	<text name = "structure">
+		<rus>Структура сайта</rus>
+	    <eng>Sitemap</eng>
+	</text>
+	<text name = "search">
+		<rus>Поиск по сайту</rus>
+	    <eng>Search</eng>
+	</text>
+	<text name = "found">
+		<rus>найденных</rus>
+	    <eng>matches for page</eng>
+	</text>
+	<text name = "of">
+		<rus>из</rus>
+	    <eng>of about</eng>
+	</text>
+	<text name = "ничего не найдено">
+		<rus>ничего не найдено</rus>
+	    <eng>no matches</eng>
+	</text>
+	<text name = "о компании">
+		<rus>О компании</rus>
+	    <eng>About</eng>
+	</text>
+	<text name = "контакты">
+		<rus>Контакты</rus>
+	    <eng>Contacts</eng>
+	</text>
+	<text name = "подробнее">
+		<rus>Подробнее</rus>
+	    <eng>More</eng>
+	</text>
+	<text name = "создание">
+		<rus><![CDATA[Создание сайта <a href="">Marika.ru</a>]]></rus>
+	    <eng><![CDATA[Design by <a href="#">Marika.ru</a>]]></eng>
+	</text>
+	<text name = "назад к списку новостей">
+		<rus>назад к списку новостей</rus>
+	    <eng>Back</eng>
+	</text>
+	<text name = "Фамилия">
+		<rus>Фамилия, Имя, Отчество</rus>
+	    <eng>Name</eng>
+	</text>
+	<text name = "Вашemailадрес">
+		<rus>Ваш email адрес</rus>
+	    <eng>Your e-mail</eng>
+	</text>
+	<text name = "Контактный телефон">
+		<rus>Контактный телефон</rus>
+	    <eng>Tel</eng>
+	</text>
+	<text name = "заявка">
+		<rus>Краткое содержание заявки</rus>
+	    <eng>Request</eng>
+	</text>
+	<text name = "Заполните обязательные поля">
+		<rus>Заполните обязательные поля!</rus>
+	    <eng>Fill all the fields</eng>
+	</text>
+	<text name = "Неверный формат email">
+		<rus>Неверный формат e-mail</rus>
+	    <eng>Wrong e-mail</eng>
+	</text>
+	<text name = "Спасибо">
+		<rus>Спасибо! Ваша заявка отправлена</rus>
+	    <eng>Thnx!!</eng>
+	</text>
+	<text name = "captcha">
+		<rus>Контрольная фраза не совпадает с символами, отображенными на рисунке</rus>
+	    <eng>Wrong Captcha</eng>
+	</text>
+
+</texts>

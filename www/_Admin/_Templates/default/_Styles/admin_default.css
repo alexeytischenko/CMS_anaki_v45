@@ -1,0 +1,98 @@
+body {background-color:#4292A4}
+input, select, option, textarea {font: normal 11px Verdana,Tahoma;color:#000000;}
+
+.sortval {font: normal 8px Verdana,Tahoma;color:#666666;}
+
+.dynvarchar {width: 600px;}
+.dynnumbers {width: 130px;}
+
+fieldset {margin:5px;}
+.fieldvalues {color:#000000;}
+
+.top-menu {
+	height:35px;
+	background-color:#364359;
+	padding-top:10px;padding-left:0px;padding-right:0px;padding-bottom:0px;
+	color:#6F82A5;
+}
+.top-menu a {color:#F29000;padding:10px}
+.top-menu .selected {
+	font-weight:bold;
+	color:#CCCCCC;
+	padding:10px;
+}
+
+.list {background-color:#6F82A5; padding:2px;border:0px}
+.list .row {background-color:#F4F4F6;}
+.list .rowselected {background-color:#FFDCA9;}
+.list .row a {color:#555555;text-decoration:none;}
+.list .rowselected a {color:#555555;text-decoration:none;}
+.list .head {font-weight:bold; color:#CCCCCC; padding-bottom:5px;}
+.list .path {background-color:#364359;padding-left:5px;}
+.list .path a {color:#F29000;}
+
+.errorpanel {background-color:#F17474;font-weight:bold;color:#CCCCCC;padding:10px;}
+.actionpanel {background-color:#41A941;font-weight:bold;color:#CCCCCC;padding:10px;}
+.editpanel {background-color:#FCE9BC;}
+.editpanelwhite {background-color:#FFFFFF;width:652;}
+.editpanel .switchPanel {background-color:#FFF7D7;}
+.editpanel .switchPanel .childprops {background-color:#FFFFFF;}
+
+.blockeduser {text-decoration:underline; font-size:9px; padding-left:10px;}
+
+.actbookmark {background-color:#FFF7D7;}
+.actbookmark a {color:#222222;font-weight:bold;text-decoration:none;}
+.bookmark a {color:#555555;}
+
+.pad10 {padding-left:10px;}
+.pad20 {padding-left:20px;}
+.pad30 {padding-left:30px;}
+.pad40 {padding-left:40px;}
+.pad50 {padding-left:50px;}
+.pad60 {padding-left:60px;}
+.pad70 {padding-left:70px;}
+
+div.tabs {
+
+padding: 1px;
+margin-top:8px;
+}
+
+ul.tabNavigation {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.tabNavigation li {
+display: inline;
+}
+
+ul.tabNavigation li a {
+padding: 3px 9px;
+background-color: #FFF7D7;
+color: #000;
+text-decoration: none;
+}
+
+ul.tabNavigation li a.selected,
+ul.tabNavigation li a.selected:hover {
+background: #FFDCA9;
+color: #000;
+}
+
+ul.tabNavigation li a:hover {
+background: #ccc;
+color: #000;
+}
+
+ul.tabNavigation li a:focus {
+outline: 0;
+}
+
+div.tabs div {
+padding: 2px;
+margin-top: 3px;
+border: 1px solid #FCE9BC;
+background: #FCE9BC;
+}

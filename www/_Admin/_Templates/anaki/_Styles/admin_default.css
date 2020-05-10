@@ -1,0 +1,111 @@
+body {background-color:#364359;}
+input, select, option, textarea {font: normal 11px Verdana,Tahoma;color:#000000;}
+
+.sortval {font: normal 8px Verdana,Tahoma;color:#666666;}
+
+.dynvarchar {width: 600px;}
+.dynnumbers {width: 130px;}
+
+fieldset {margin:5px;}
+.fieldvalues {color:#000000;}
+
+td{
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height : 18px;
+}
+
+p {
+padding: 4px 0;
+margin: 4px 0
+}
+a{
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration : none;
+}
+
+a:hover{
+	color: #000000;
+	text-decoration : underline;
+}
+
+a.selected{
+	color: #000000;
+	font-weight: bold;
+	text-decoration : none;
+}
+
+.topmenutext {
+color: #666666;
+}
+
+div.tabs {
+background: #364359;
+padding: 1px;
+margin-top:8px;
+}
+
+ul.tabNavigation {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.tabNavigation li {
+display: inline;
+}
+
+ul.tabNavigation li a {
+padding: 3px 9px;
+background-color: #666;
+color: #000;
+text-decoration: none;
+}
+
+ul.tabNavigation li a.selected,
+ul.tabNavigation li a.selected:hover {
+background: #FFDCA9;
+color: #000;
+}
+
+ul.tabNavigation li a:hover {
+background: #ccc;
+color: #000;
+}
+
+ul.tabNavigation li a:focus {
+outline: 0;
+}
+
+div.tabs div {
+padding: 2px;
+margin-top: 3px;
+border: 1px solid #F4F4F6;
+background: #F4F4F6;
+}
+
+.save_button {width:150px;height:30px;background-color:#6F82A5;}
+
+.list {background-color:#6F82A5; padding:2px;border:0px}
+.list .row {background-color:#F4F4F6;}
+.list .rowselected {background-color:#FFDCA9;}
+.list .row a {font: normal 11px Verdana,Tahoma;color:#555555; text-decoration:none;}
+.list .rowselected a {font: normal 11px Verdana,Tahoma;color:#555555; text-decoration:none;}
+.list .head {font-weight:bold; color:#CCCCCC; padding-bottom:5px;}
+.list .path td {background-color:#6F82A5;color: #999999;padding-left:5px; height: 22px;}
+
+.errorpanel {background-color:#F45050;font-weight:bold;color:#CCCCCC;padding:10px;}
+.actionpanel {background-color:#41A941;font-weight:bold;color:#CCCCCC;padding:10px;}
+.noticepanel {background-color:#BFF4BF;font-weight:bold;color:#787D78;padding:10px;}
+.editpanel {background-color:#FCE9BC;}
+.editpanelwhite {background-color:#FFFFFF;width:652;}
+.editpanel .switchPanel {background-color:#FFF7D7;}
+.editpanel .switchPanel .childprops {background-color:#FFFFFF;}
+
+.blockeduser {text-decoration:underline; font-size:9px; padding-left:10px;}
+
+
+

@@ -150,8 +150,26 @@ switch ($action)	{
 	case "update"	:
 	    #создание или обновление объекта
 
-     	//сортировка фотогалереи
-		if ($oid != -1 && $objectsTypes[$objtype]["gallery"])	ObjectGallery::setGallerySort($oid, $_POST["fotolist_order"]);
+     	//загрузка и сортировка фотогалереи
+		if ($oid != -1 && $objectsTypes[$objtype]["gallery"])	{
+
+			//загрузка фотографий фотогалереи
+			if (isset($_FILES['Filedata']["tmp_name"][0]) && strlen($_FILES['Filedata']["tmp_name"][0]) > 0) {
+
+				$fileCount = count($_FILES['Filedata']["tmp_name"]);
+
+                for ($i = 0; $i < $fileCount; $i++) {
+
+                	$f['Filedata'] = array('name' => $_FILES['Filedata']['name'][$i], 'type' => $_FILES['Filedata']['type'][$i], 'tmp_name' => $_FILES['Filedata']['tmp_name'][$i], 'size' => $_FILES['Filedata']['size'][$i]);
+
+					ObjectGallery :: saveFoto($oid, $f, $objectsTypes[$objtype]["gallery_photos"]);
+				}
+	        }
+
+
+        	//сортировка фотогалереи
+			ObjectGallery::setGallerySort($oid, $_POST["fotolist_order"]);
+		}
 		//запись названий
 		$tmp_ftlist = new ObjectGallery($oid);
 		reset($tmp_ftlist);

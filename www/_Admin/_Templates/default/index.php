@@ -334,6 +334,7 @@ if (!defined("INDEX_STARTED") || INDEX_STARTED!==true)	die();
 			    <?if ($objectsTypes[$curObject->objectType]["gallery"])	{?>
 			    <div id="photo">
                 	<?if ($curObject->oid > 0)	{?>
+        <?/*
 		<script type="text/javascript" src="/_Libs/SWFUpload/swfupload.js"></script>
 		<script type="text/javascript" src="/_Libs/SWFUpload/swfupload.queue.js"></script>
 		<script type="text/javascript" src="/_Libs/SWFUpload/fileprogress.js"></script>
@@ -394,6 +395,14 @@ if (!defined("INDEX_STARTED") || INDEX_STARTED!==true)	die();
 						</td><td>
 						<input id="btnCancel" type="button" value="Отменить все загрузки" onclick="swfu.cancelQueue();" disabled="disabled" style="margin-left: 2px; font-size: 8pt; height: 29px;" />
 						</td></tr></table>
+			*/?>
+
+					<fieldset>
+						<legend>выбрать графические файлы для загрузки</legend>
+						<input type="file" name="Filedata[]" multiple>
+					</fieldset>
+					
+					
 					<script type="text/javascript">
 					  //When the document is ready set up our sortable with it's inherant function(s)
 					  	$(document).ready(function() {

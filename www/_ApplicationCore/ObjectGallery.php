@@ -60,6 +60,7 @@ class ObjectGallery  {
 		$save_path = $path . intval($parent)."/";
 
         $upload_name = "Filedata";
+
   		$file_name = CustomLibs :: transliteral	(basename($upfile[$upload_name]['name']));
 
         ////////////////////////////ресайз и создание превью
